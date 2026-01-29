@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <title>calculator | Iarles Alves</title>
+  </head>
+
+  <body>
+    <form action="" autocomplete="off">
+      <h1>calculator&#x1F9EE;</h1>
+      <p>arithmetic</p>
+      <fieldset>
+        <legend>provide the values</legend>
+        <input type="number" id="tn1" placeholder="first value" />
+        <input type="number" id="tn2" placeholder="second value" />
+      </fieldset>
+      <fieldset>
+        <legend>options</legend>
+        <select name="" id="opt">
+          <option value="+">add [+]</option>
+          <option value="-">sub [-]</option>
+          <option value="*">mul [*]</option>
+          <option value="/">div [/]</option>
+        </select>
+      </fieldset>
+      <input type="button" id="btn" value="send" onclick="_action()" />
+      <div id="res">
+        <p>result:</p>
+      </div>
+    </form>
+    <script src="myscripts.js"></script>
+  </body>
+</html>
